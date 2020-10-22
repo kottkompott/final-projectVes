@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/stylesheet.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,14 +23,15 @@
             </div>
             <nav>
                 <ul class="header-list">
-                    <li class="header-item"><a href="#">Home</a> </li>
-                    <li class="header-item"><a href="#">About Us</a></li>
-                    <li class="header-item"><a href="#">Portfolio</a></li>
-                    <li class="header-item"><a href="#">Features</a></li>
-                    <li class="header-item"><a href="#">Blog</a></li>
-                    <li class="header-item"><a href="#">Pricing</a></li>
-                    <li class="header-item"><a href="#">Shortcodes</a></li>
-                    <li class="header-item"><a href="#">Contact</a></li>
+                    <li class="header-item"><a href="#" class="header-item-link">Home</a> </li>
+                    <li class="header-item"><a href="#" class="header-item-link">About&nbsp;Us</a></li>
+                    <li class="header-item"><a href="#" class="header-item-link">Portfolio</a></li>
+                    <li class="header-item"><a href="#" class="header-item-link">Portfolio</a></li>
+                    <li class="header-item"><a href="#" class="header-item-link">Features</a></li>
+                    <li class="header-item"><a href="#" class="header-item-link">Blog</a></li>
+                    <li class="header-item"><a href="#" class="header-item-link">Pricing</a></li>
+                    <li class="header-item"><a href="#" class="header-item-link">Shortcodes</a></li>
+                    <li class="header-item"><a href="#" class="header-item-link">Contact</a></li>
                 </ul>
             </nav>
             <div class="wrp-cs">
@@ -55,30 +57,35 @@
                 </svg>
             </a>
             <div class="header-slide">
-                <h2 class="header-slide-slogan">Unique and Modern Design</h2>
-                <h1 class="header-slide-title">Portfolio PSD Template</h1>
+                <h1 class="visually-hidden">Moderm designs and templates for any sites</h1>
+                <p class="header-slide-slogan">Unique and Modern Design</p>
+                <p class="header-slide-title">Portfolio PSD Template</p>
                 <p class="header-slide-about">Nam liber tempor cum soluta nobis eleifend option congue nihil 
                     imperdiet doming id quod mazim placerat facer possim assum.
                 </p>
-                <a href="#" class="header-slide-get">Get started</a>
+                <button class="header-slide-button button">Get started</button>
             </div>
             <a href="#" class="header-slider-right">
-                <svg class="header-slider-arrowr"xmlns="http://www.w3.org/2000/svg"
+                <svg class="header-slider-arrowr" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
                     width="42px" height="75px"  viewBox="0 0 42 75">
                     <path d="M2.973877,73.97943 C2.973877,73.97943 40.995117,37.498016 40.995117,37.498016 C40.995117,37.498016 2.973877,1.01828 2.973877,1.01828 C2.973877,1.01828 1.0048828,3.0219421 1.0048828,3.0219421 C1.0048828,3.0219421 36.93396,37.498016 36.93396,37.498016 C36.93396,37.498016 1.0048828,71.97656 1.0048828,71.97656 C1.0048828,71.97656 2.973877,73.97943 2.973877,73.97943 Z"/>
                 </svg>
             </a>            
         </div>
-        <form action="" class="header-slider-radio">
-            <input type="radio"> <input type="radio"> <input type="radio"> <input type="radio"> <input type="radio"> <input type="radio">
+        <form class="header-slider-radio">
+            <input type="radio"> 
+            <input type="radio"> 
+            <input type="radio"> 
+            <input type="radio">
+            <input type="radio">
         </form>
     </header>
     <main>            
         <section class="services">
             <h2 class="visually-hidden">Web & App Design, Development, Customization, Marketing</h2>
-            <div class="services-points">
-                <a href="#" class="services-points-link">
+            <ul class="services-list">
+                <li class="services-points">
                     <svg class="services-points-icon" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
                         width="51px" height="51px"  viewBox="0 0 51 51">
@@ -87,12 +94,9 @@
                     <h3 class="services-points-title">Web & App Design</h3>
                     <p class="services-points-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet 
                         doming id quod mazim.
-                    </p>
-                    <hr class="services-points-line">
-                </a>
-            </div>
-            <div class="services-points">
-                <a href="#" class="services-points-link">
+                    </p>                    
+                </li>
+                <li class="services-points">
                     <svg class="services-points-icon" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
                         width="46px" height="42px"  viewBox="0 0 46 42">
@@ -101,12 +105,9 @@
                     <h3 class="services-points-title">Development</h3>
                     <p class="services-points-txt">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy 
                         nibh euismod tincidunt ut laoreet.
-                    </p>
-                    <hr class="services-points-line">
-                </a>
-            </div>
-            <div class="services-points">
-                <a href="#" class="services-points-link">
+                    </p>                    
+                </li>
+                <li class="services-points">
                     <svg class="services-points-icon" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
                         width="46px" height="46px"  viewBox="0 0 46 46">
@@ -116,11 +117,8 @@
                     <p class="services-points-txt">Nam liber tempor cum soluta nobis 
                         eleifend option congue nihil imperdiet doming id quod mazim.
                     </p>
-                    <hr class="services-points-line">
-                </a>
-            </div>
-            <div class="services-points">
-                <a href="#" class="services-points-link">
+                </li>
+                <li class="services-points">
                     <svg class="services-points-icon" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
                         width="55px" height="38px"  viewBox="0 0 55 38">
@@ -129,103 +127,170 @@
                     <h3 class="services-points-title">Marketing</h3>
                     <p class="services-points-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet 
                         doming id quod mazim.
-                    </p>
-                    <hr class="services-points-line">
-                </a>
-            </div>
+                    </p>                    
+                </li>
+            </ul>
         </section>
         <section class="screenshots">
-            <h2 class="screenshots-title">Waxom is Realization of your Ideas.</h2>
-            <p class="screenshots-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
+            <h2 class="screenshots-title title">Waxom is Realization of your Ideas.</h2>
+            <p class="screenshots-txt txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
                 Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
             </p>
             <div class="screenshots-carousel">
-                <div class="screenshots-carousel-screen1"></div>
-                <div class="screenshots-carousel-screen2"><img src="./img/browser_scr-center.jpg" alt="Variants of your desigh" height='482px'></div>
-                <div class="screenshots-carousel-screen3"></div>
+                <div class="screenshots-carousel-screen1"><img src="./img/browser_scr-fst.jpg" alt="Variants of your desigh" height='400'></div>
+                <div class="screenshots-carousel-screen2"><img src="./img/browser_scr-sec.jpg" alt="Variants of your desigh" height='482'></div>
+                <div class="screenshots-carousel-screen3"><img src="./img/browser_scr-thr.jpg" alt="Variants of your desigh" height='400'></div>
             </div>
         </section>
-        <aside>
+        <aside class='rate'>
             <div class="rate-wrp">
                 <div class="rateus">
                     <h2 class="rateus-title"><span class="rateus-title-color">Waxom</span> Multipurpose WordPress Theme</h2>
                     <p class="rateus-txt">Don't Forget to Rate the Template. Thanks so much!</p>
                 </div>
-                <a href="#" class="purchase">Purchase now</a>
+                <button class="purchase button">Purchase now</button>
             </div>
         </aside>
         <section class="projects">
             <div class="projects-wrp">
                 <h2 class="projects-title">Our Latest Projects.</h2>
-                <p class="projects-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
+                <p class="projects-txt txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. 
                     Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
                 </p>
                 <ul class="projects-tabs">
-                    <li class="projects-item"><a href="#" class="projects-link">All</a></li>
-                    <li class="projects-item"><a href="#" class="projects-link">Web Design</a></li>
-                    <li class="projects-item"><a href="#" class="projects-link">Mobile App</a></li>
-                    <li class="projects-item"><a href="#" class="projects-link">Illustration</a></li>
-                    <li class="projects-item"><a href="#" class="projects-link">Photography</a></li>
+                    <li class="projects-item"><button class="projects-button">All</button></li>
+                    <li class="projects-item"><button class="projects-button">Web Design</button></li>
+                    <li class="projects-item"><button class="projects-button">Mobile App</button></li>
+                    <li class="projects-item"><button class="projects-button">Illustration</button></li>
+                    <li class="projects-item"><button class="projects-button">Photography</button></li>
                 </ul>
             </div>
-            <div class="projects-cards">
+            <div class="projects-cards">                
                 <div class="projects-card">
-                    <img class="projects-card-screen" src="./img/projects_1.jpg" alt="our latest project">
-                    <h3 class="projects-card-title">
-                        Claritas Etiam Processus
-                    </h3>
-                    <p class="projects-card-txt">
-                        Photography, Nature
-                    </p>
+                    <img class="projects-card-screen" src="./img/projects_1.jpg" height="237" alt="our latest project">
+                    <div class="projects-card-about">
+                        <h3 class="projects-card-title">
+                            Claritas Etiam Processus
+                        </h3>
+                        <p class="projects-card-txt">
+                            Photography, Nature
+                        </p>
+                    </div>
                 </div>
                 <div class="projects-card">
-                    <img class="projects-card-screen" src="./img/projects_2.jpg" alt="our latest project">
-                    <h3 class="projects-card-title">
-                        Quam Nutamus Farum
-                    </h3>
-                    <p class="projects-card-txt">
-                        Graphic Design, Mock-Up
-                    </p>
+                    <img class="projects-card-screen" src="./img/projects_2.jpg" height="237" alt="our latest project">
+                    <div class="projects-card-about">
+                        <h3 class="projects-card-title">
+                            Quam Nutamus Farum
+                        </h3>
+                        <p class="projects-card-txt">
+                            Graphic Design, Mock-Up
+                        </p>
+                    </div>
                 </div>
                 <div class="projects-card">
-                    <img class="projects-card-screen" src="./img/projects_3.jpg" alt="our latest project">
-                    <h3 class="projects-card-title">
-                        Usus Legentis Videntur
-                    </h3>
-                    <p class="projects-card-txt">
-                        Photography, Holiday
-                    </p>
+                    <img class="projects-card-screen" src="./img/projects_3.jpg" height="237" alt="our latest project">
+                    <div class="projects-card-about">
+                        <h3 class="projects-card-title">
+                            Usus Legentis Videntur
+                        </h3>
+                        <p class="projects-card-txt">
+                            Photography, Holiday
+                        </p>
+                    </div>
                 </div>
                 <div class="projects-card">
-                    <img class="projects-card-screen" src="./img/projects_4.jpg" alt="our latest project">
-                    <h3 class="projects-card-title">
-                        Claritas Etiam Processus
-                    </h3>
-                    <p class="projects-card-txt">
-                        Photography, Nature
-                    </p>
+                    <img class="projects-card-screen" src="./img/projects_4.jpg" height="237" alt="our latest project">
+                    <div class="projects-card-about">
+                        <h3 class="projects-card-title">
+                            Claritas Etiam Processus
+                        </h3>
+                        <p class="projects-card-txt">
+                            Photography, Nature
+                        </p>
+                    </div>
                 </div>
                 <div class="projects-card">
-                    <img class="projects-card-screen" src="./img/projects_5.jpg" alt="our latest project">
-                    <h3 class="projects-card-title">
-                        Quam Nutamus Farum
-                    </h3>
-                    <p class="projects-card-txt">
-                        Graphic Design, Mock-Up
-                    </p>
+                    <img class="projects-card-screen" src="./img/projects_5.jpg" height="237" alt="our latest project">
+                    <div class="projects-card-about">
+                        <h3 class="projects-card-title">
+                            Quam Nutamus Farum
+                        </h3>
+                        <p class="projects-card-txt">
+                            Graphic Design, Mock-Up
+                        </p>
+                    </div>
                 </div>
                 <div class="projects-card">
-                    <img class="projects-card-screen" src="./img/projects_6.jpg" alt="our latest project">
-                    <h3 class="projects-card-title">
-                        Usus Legentis Videntur
-                    </h3>
-                    <p class="projects-card-txt">
-                        Photography, Holiday
-                    </p>
+                    <img class="projects-card-screen" src="./img/projects_6.jpg" height="237" alt="our latest project">
+                    <div class="projects-card-about">
+                        <h3 class="projects-card-title">
+                            Usus Legentis Videntur
+                        </h3>
+                        <p class="projects-card-txt">
+                            Photography, Holiday
+                        </p>
+                    </div>
                 </div>
             </div>
-            <!--<a href="#" class="projects-link">Load More</a>-->
-        </section>
+            <div class="projects-bigbutton"><button class="button">Load More</button></div>
+        </section> 
+        <section class="video">
+            <video class="video-file"
+                   /*width="1920"*/
+                   height="705"
+                   autoplay
+                   loop
+                   muted
+                   src="./video/sky.mp4">
+            </video>
+            <svg class="video-play-icon" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="70px" height="70px"  viewBox="5 5 70 70">
+                <path fill-rule="evenodd" d="M34.933594,56.81958 C34.637512,56.81958 34.339172,56.755127 34.060303,56.62549 C33.336792,56.28662 32.874207,55.559082 32.874207,54.760254 C32.874207,54.760254 32.874207,25.235107 32.874207,25.235107 C32.874207,24.436035 33.336548,23.708252 34.060303,23.369629 C34.783447,23.030273 35.639526,23.141113 36.252625,23.652588 C36.252625,23.652588 53.967285,38.415283 53.967285,38.415283 C54.437073,38.80664 54.70862,39.38623 54.70862,39.997314 C54.70862,40.609375 54.437256,41.188477 53.967285,41.580322 C53.967285,41.580322 36.252625,56.34253 36.252625,56.34253 C35.87567,56.65674 35.4068,56.81958 34.933594,56.81958 ZM36.99408,29.632812 C36.99408,29.632812 36.99408,50.362305 36.99408,50.362305 C36.99408,50.362305 49.431274,39.997314 49.431274,39.997314 C49.431274,39.997314 36.99408,29.632812 36.99408,29.632812 ZM39.93683,74.99829 C34.072144,74.99902 28.173218,73.53589 22.830505,70.52759 C21.839355,69.96997 21.487915,68.71338 22.046387,67.72217 C22.603699,66.73096 23.860046,66.37891 24.851929,66.937744 C36.869812,73.703125 52.082397,71.61157 61.845276,61.845215 C73.89203,49.798096 73.89203,30.19751 61.845276,18.149902 C49.7984,6.1013184 30.19629,6.1018066 18.150024,18.149902 C6.10376,30.19751 6.10376,49.798096 18.150024,61.845215 C18.954529,62.649414 18.954529,63.954346 18.150024,64.75903 C17.346497,65.56348 16.04187,65.56348 15.237244,64.75903 C1.5844727,51.104736 1.5844727,28.890137 15.237244,15.236084 C28.890625,1.5842285 51.104065,1.5830078 64.75903,15.236084 C78.411865,28.890137 78.411865,51.104736 64.75903,64.75903 C58.033325,71.484375 49.025696,74.99829 39.93683,74.99829 Z"/>
+            </svg>
+            <div class="video-about">
+                <h2 class="video-title">
+                    Waxom Video Presentation
+                </h2>
+                <p class="video-txt">
+                    Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.
+                </p>
+                <p class="video-time">
+                    03:26
+                </p>
+            </div>
+
+        </section> 
+        <section class="formobile">
+            <div class="formobile-wrp">
+                <div class="formobile-about">
+                    <h2 class="formobile-title title">
+                        Excellent for Mobile Devices.
+                    </h2>
+                    <p class="formobile-txt txt">
+                        Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+                        Investigationes demonstraverunt lectores 
+                        legere me lius quod ii legunt saepius claritas. 
+                        Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+                    </p>
+                    <ul class="formobile-list">
+                        <li class="formobile-item txt">
+                            Nam liber tempor cum soluta nobis eleifend option;
+                        </li>
+                        <li class="formobile-item txt">
+                            Option congue nihil imperdiet doming id quod mazim placerat facer;
+                        </li>
+                        <li class="formobile-item txt">
+                            Eodem modo typi, qui nunc nobis videntur parum futurum;
+                        </li>
+                        <li class="formobile-item txt">
+                            Investigationes demonstraverunt lectores
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>      
     </main>
     
 </body>
