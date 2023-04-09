@@ -1449,7 +1449,7 @@ input[type="radio"] {
   .footer-wrp {
     display: none;
   }
-    footer-social {
+    .footer-social {
   max-width: 576px;
     }
 }
